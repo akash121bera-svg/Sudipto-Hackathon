@@ -10,30 +10,7 @@ Built using **Streamlit**, the application uses a hybrid architecture combining 
 
 Below is the technical flow of the application. The system implements a **three-tier LLM fallback cascade** for candidate profile extraction and a **secondary RAG cascade** for generating citizen-friendly explanations.
 
-### Application Flow Diagram
-This diagram represents the actual production implementation of the application:
-
 ![Application Flow Diagram](flowdiagram/architecture_diagram.png)
-
----
-
-### Architecture Design Comparison
-
-We evaluated two potential architecture models during the design phase:
-
-| Feature / Metric | Diagram 1: Ingestion & Vector DB (Proposed) | Diagram 2: Three-Tier Cascade & Local Matcher (Actual Production - CHOSEN) |
-| :--- | :--- | :--- |
-| **System Flow Type** | Ingestion pipeline + semantic vector retrieval. | **Three-tier API fallback cascade** + deterministic local rule matching. |
-| **Profile Extraction** | Uses Gemini 2.5 Flash. | **Three-Tier Cascade**: Gemini 2.5 Flash (Primary) $\rightarrow$ Groq Llama 3.3 (Secondary Fallback) $\rightarrow$ Local Mock Profiles (Tertiary offline fallback). |
-| **Database Retrieval** | Automated scraper crons, chunks documents, embeds them, and runs semantic search on a Vector Database. | Direct loading of the structured JSON database [schemes.json](schemes.json) directly in memory. |
-| **Eligibility Matching** | Hybrid semantic query retrieval + local post-filters. | **100% deterministic local rule-matching engine** checking user profile traits (age, gender, state, income, education, occupation) against scheme conditions in Python. |
-| **Secondary RAG Explainer** | Vector RAG lookup. | Dynamic generation fallback (Gemini $\rightarrow$ Groq $\rightarrow$ Offline text templates) for citizen-friendly explanations and scheme comparison grids. |
-| **Project Codebase Match** | ❌ **Incorrect**: The application does not use web scrapers, cron jobs, embedding models, or vector databases. |  **100% Match**: Exactly matches the flow, fallback routes, and class definitions implemented in [app.py](app.py). |
-
-### Why the Chosen Diagram Fits Best
-1. **Technical Accuracy**: The project does not implement an ingestion pipeline, web scraping, data chunking, embeddings, or a vector database. Matching is performed entirely locally against `schemes.json` using standard Python logic.
-2. **Resilience & Fallback Representation**: It correctly details the cascading fallback mechanism (Gemini $\rightarrow$ Groq $\rightarrow$ Offline templates) used both for profile parsing and explanation/comparison generation, which is a major design pattern in our implementation.
-3. **Reflects Actual User Experience**: It shows the true end-to-end interactive flow of the Streamlit application.
 
 ---
 
