@@ -1,0 +1,246 @@
+[
+    {
+        "id": "TC-001",
+        "description": "Exclusively target SC student scholarships and income restrictions.",
+        "query": "I am a 19 year old SC student from Uttar Pradesh pursuing my BA degree. My family's annual income is 1.5 Lakhs.",
+        "expected_profile": {
+            "age": 19,
+            "gender": null,
+            "occupation": "student",
+            "education": "graduate",
+            "annual_income": 150000,
+            "state": "Uttar Pradesh"
+        },
+        "expected_matches": [
+            "Post Matric Scholarship Scheme for SC Students",
+            "National Career Service (NCS)"
+        ]
+    },
+    {
+        "id": "TC-002",
+        "description": "Apprentice seeking technical training and placements.",
+        "query": "I am a 20 year old male ITI diploma holder from Haryana. I completed my diploma last year and am currently looking for hands-on apprenticeship opportunities.",
+        "expected_profile": {
+            "age": 20,
+            "gender": "male",
+            "occupation": "job seeker",
+            "education": "diploma",
+            "annual_income": null,
+            "state": "Haryana"
+        },
+        "expected_matches": [
+            "National Apprenticeship Promotion Scheme (NAPS)",
+            "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+            "National Career Service (NCS)"
+        ]
+    },
+    {
+        "id": "TC-003",
+        "description": "Eligible candidate for Prime Minister's Internship Scheme (PMIS).",
+        "query": "I am 22 years old and currently unemployed. I graduated with a B.Com degree last year and live in Delhi. My family's total annual income is 3.2 Lakhs.",
+        "expected_profile": {
+            "age": 22,
+            "gender": null,
+            "occupation": "unemployed",
+            "education": "graduate",
+            "annual_income": 320000,
+            "state": "Delhi"
+        },
+        "expected_matches": [
+            "Prime Minister's Internship Scheme (PMIS)",
+            "National Career Service (NCS)"
+        ]
+    },
+    {
+        "id": "TC-004",
+        "description": "Female technical student eligible for AICTE Pragati scholarship.",
+        "query": "I am an 18-year-old girl from Maharashtra. I just got admitted to the first year of my B.Tech engineering degree. My parents' annual income is 4 Lakhs.",
+        "expected_profile": {
+            "age": 18,
+            "gender": "female",
+            "occupation": "student",
+            "education": "graduate",
+            "annual_income": 400000,
+            "state": "Maharashtra"
+        },
+        "expected_matches": [
+            "AICTE Pragati Scholarship for Girls",
+            "National Career Service (NCS)"
+        ]
+    },
+    {
+        "id": "TC-005",
+        "description": "Rural unskilled worker seeking manual wage labour.",
+        "query": "I am a 42-year-old laborer from a village in Bihar looking for manual work. I did not go to school.",
+        "expected_profile": {
+            "age": 42,
+            "gender": null,
+            "occupation": "unemployed",
+            "education": "literate",
+            "annual_income": null,
+            "state": "Bihar"
+        },
+        "expected_matches": [
+            "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)"
+        ]
+    },
+    {
+        "id": "TC-006",
+        "description": "Young girl student eligible for secondary education incentive (NMMS/NSIGSE).",
+        "query": "I am a 14-year-old girl from Rajasthan. I passed class 8 and have been admitted to class 9 in a government school. My parents make 1.8 Lakhs per year.",
+        "expected_profile": {
+            "age": 14,
+            "gender": "female",
+            "occupation": "student",
+            "education": "8th",
+            "annual_income": 180000,
+            "state": "Rajasthan"
+        },
+        "expected_matches": [
+            "National Means cum Merit Scholarship (NMMS)",
+            "National Scheme for Incentive to Girls for Secondary Education (NSIGSE)"
+        ]
+    },
+    {
+        "id": "TC-007",
+        "description": "Rural BPL candidate from Odisha seeking free training and lodging.",
+        "query": "I am 24 years old, unemployed, and live in a village in Odisha. I completed class 10. We have a BPL ration card and very low household income.",
+        "expected_profile": {
+            "age": 24,
+            "gender": null,
+            "occupation": "unemployed",
+            "education": "10th",
+            "annual_income": 0,
+            "state": "Odisha"
+        },
+        "expected_matches": [
+            "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)",
+            "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+            "National Career Service (NCS)"
+        ]
+    },
+    {
+        "id": "TC-008",
+        "description": "Exclusion test for high family income (should exclude income-restricted schemes).",
+        "query": "I am a 22 year old unemployed engineering graduate from Delhi. My family's annual income is 10 Lakhs.",
+        "expected_profile": {
+            "age": 22,
+            "gender": null,
+            "occupation": "unemployed",
+            "education": "graduate",
+            "annual_income": 1000000,
+            "state": "Delhi"
+        },
+        "expected_matches": [
+            "National Career Service (NCS)"
+        ]
+    },
+    {
+        "id": "TC-009",
+        "description": "Exclusion test for age restrictions (PMIS is restricted to 21-24 years).",
+        "query": "I am a 26 year old unemployed graduate from Bangalore. My family income is 2.5 Lakhs.",
+        "expected_profile": {
+            "age": 26,
+            "gender": null,
+            "occupation": "unemployed",
+            "education": "graduate",
+            "annual_income": 250000,
+            "state": "Karnataka"
+        },
+        "expected_matches": [
+            "National Career Service (NCS)",
+            "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)"
+        ]
+    },
+    {
+        "id": "TC-010",
+        "description": "Candidate seeking skill development through MSDE schemes.",
+        "query": "I am a 29 year old student from Pune looking to join certified short-term vocational courses.",
+        "expected_profile": {
+            "age": 29,
+            "gender": null,
+            "occupation": "student",
+            "education": "all",
+            "annual_income": null,
+            "state": "Maharashtra"
+        },
+        "expected_matches": [
+            "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+            "National Career Service (NCS)"
+        ]
+    },
+    {
+        "id": "TC-011",
+        "description": "Exclusion check for underage child (lower limit validation).",
+        "query": "I am a 9-year-old child in primary school from Delhi.",
+        "expected_profile": {
+            "age": 9,
+            "gender": null,
+            "occupation": "student",
+            "education": "literate",
+            "annual_income": null,
+            "state": "Delhi"
+        },
+        "expected_matches": []
+    },
+    {
+        "id": "TC-012",
+        "description": "Exclusion check for overage citizen (upper limit validation).",
+        "query": "I am a 68-year-old retired grandparent living in Bangalore.",
+        "expected_profile": {
+            "age": 68,
+            "gender": null,
+            "occupation": "unemployed",
+            "education": "literate",
+            "annual_income": null,
+            "state": "Karnataka"
+        },
+        "expected_matches": []
+    },
+    {
+        "id": "TC-013",
+        "description": "Occupation disqualification (government employee, not eligible for job assistance/wages).",
+        "query": "I am a 30-year-old government clerk from Mumbai earning 6 Lakhs per year.",
+        "expected_profile": {
+            "age": 30,
+            "gender": null,
+            "occupation": "clerk",
+            "education": "graduate",
+            "annual_income": 600000,
+            "state": "Maharashtra"
+        },
+        "expected_matches": []
+    },
+    {
+        "id": "TC-014",
+        "description": "Educational mismatch (illiterate candidate seeking technical degree scholarships).",
+        "query": "I am a 22-year-old illiterate youth from a village in Madhya Pradesh seeking admission to a technical B.Tech scholarship.",
+        "expected_profile": {
+            "age": 22,
+            "gender": null,
+            "occupation": "unemployed",
+            "education": "literate",
+            "annual_income": null,
+            "state": "Madhya Pradesh"
+        },
+        "expected_matches": [
+            "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)"
+        ]
+    },
+    {
+        "id": "TC-015",
+        "description": "Candidate check for general job listing portal registration (NCS matching).",
+        "query": "I am a 20 year old college student from Kerala. My family income is 1.5 Lakhs per year.",
+        "expected_profile": {
+            "age": 20,
+            "gender": null,
+            "occupation": "student",
+            "education": "graduate",
+            "annual_income": 150000,
+            "state": "Kerala"
+        },
+        "expected_matches": [
+            "National Career Service (NCS)"
+        ]
+    }
+]

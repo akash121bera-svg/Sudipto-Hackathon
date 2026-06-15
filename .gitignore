@@ -1,0 +1,21 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Sensitive Config
+.env
+
+# Python Bytecode & Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Streamlit Local Files
+.streamlit/

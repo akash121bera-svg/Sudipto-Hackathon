@@ -1,0 +1,531 @@
+[
+    {
+        "scheme_id": "SCH-001",
+        "scheme_name": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+        "category": "Skill Development",
+        "ministry": "Ministry of Skill Development and Entrepreneurship",
+        "description": "Skill certification scheme aiming to enable Indian youth to take up industry-relevant skill training.",
+        "min_age": 15,
+        "max_age": 45,
+        "gender": "All",
+        "occupation": "Unemployed / Students",
+        "education": "8th standard and above",
+        "income_limit": null,
+        "state": "All India",
+        "benefits": [
+            "Free skill training courses aligned with NSQF",
+            "Assessment and certification by recognized bodies",
+            "Placement assistance and soft skills mentoring",
+            "Monetary rewards for certified candidates"
+        ],
+        "required_documents": [
+            "Aadhaar Card",
+            "Educational Qualification Certificate",
+            "Bank Account Passbook",
+            "Passport Size Photograph"
+        ],
+        "application_link": "https://www.skillindiadigital.gov.in",
+        "official_scheme_url": "https://www.skillindiadigital.gov.in"
+    },
+    {
+        "scheme_id": "SCH-002",
+        "scheme_name": "National Apprenticeship Promotion Scheme (NAPS)",
+        "category": "Apprenticeships",
+        "ministry": "Ministry of Skill Development and Entrepreneurship",
+        "description": "Scheme to promote apprenticeship training and increase the engagement of apprentices in industries by sharing stipends.",
+        "min_age": 14,
+        "max_age": 35,
+        "gender": "All",
+        "occupation": "Students / Job Seekers",
+        "education": "5th class pass to ITI/Diploma/Graduates",
+        "income_limit": null,
+        "state": "All India",
+        "benefits": [
+            "On-the-job training in recognized industries",
+            "Sharing of 25% of prescribed stipend up to Rs 1,500 per month",
+            "Apprenticeship training certificate upon completion"
+        ],
+        "required_documents": [
+            "Aadhaar Card",
+            "Educational Qualification Certificate",
+            "Bank Account Details",
+            "Caste Certificate (if applicable)"
+        ],
+        "application_link": "https://www.apprenticeshipindia.gov.in/candidate-registration",
+        "official_scheme_url": "https://www.apprenticeshipindia.gov.in/"
+    },
+    {
+        "scheme_id": "SCH-003",
+        "scheme_name": "Prime Minister's Internship Scheme (PMIS)",
+        "category": "Internships",
+        "ministry": "Ministry of Corporate Affairs",
+        "description": "Provides 12-month internship opportunities to youth in India's top 500 companies to gain corporate exposure.",
+        "min_age": 21,
+        "max_age": 24,
+        "gender": "All",
+        "occupation": "Unemployed Youth",
+        "education": "Higher Secondary / ITI / Diploma / Undergraduates (BA, BSc, BCom, BBA, BPharmacy)",
+        "income_limit": "Family income must not exceed Rs 8,00,000 per annum",
+        "state": "All India",
+        "benefits": [
+            "Monthly stipend of Rs 5,000 for 12 months",
+            "One-time financial assistance of Rs 6,000 for local requirements",
+            "Insurance coverage under PM Jeevan Jyoti Bima Yojana and PM Suraksha Bima Yojana"
+        ],
+        "required_documents": [
+            "Aadhaar Card",
+            "Educational Certificates / Marksheets",
+            "Income Certificate",
+            "Bank Account Passbook"
+        ],
+        "application_link": "https://pminternship.mca.gov.in/candidate-login",
+        "official_scheme_url": "https://pminternship.mca.gov.in/"
+    },
+    {
+        "scheme_id": "SCH-004",
+        "scheme_name": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)",
+        "category": "Skill Development",
+        "ministry": "Ministry of Rural Development",
+        "description": "Placement-linked skill training program targeted exclusively at rural poor youth.",
+        "min_age": 15,
+        "max_age": 35,
+        "gender": "All",
+        "occupation": "Rural Unemployed Youth",
+        "education": "5th class pass and above",
+        "income_limit": "Below Poverty Line (BPL) or low-income household",
+        "state": "All India",
+        "benefits": [
+            "Completely free skill training programs",
+            "Free fooding, lodging, and uniform for residential courses",
+            "Assured placement in salaried jobs (minimum 70% placement rate)",
+            "Post-placement support for one year"
+        ],
+        "required_documents": [
+            "Aadhaar Card / Voter ID",
+            "BPL Ration Card / Income Certificate",
+            "Caste Certificate (for SC/ST candidates)",
+            "Marksheets of highest education qualification"
+        ],
+        "application_link": "https://ddugky.gov.in/apply",
+        "official_scheme_url": "https://ddugky.gov.in/"
+    },
+    {
+        "scheme_id": "SCH-005",
+        "scheme_name": "Pradhan Mantri YUVA Yojana (PM-YUVA)",
+        "category": "Skill Development",
+        "ministry": "Ministry of Skill Development and Entrepreneurship",
+        "description": "Creates an enabling ecosystem for entrepreneurship development through education, training, and mentorship.",
+        "min_age": 18,
+        "max_age": 30,
+        "gender": "All",
+        "occupation": "Students / Aspiring Entrepreneurs",
+        "education": "10th class pass and above",
+        "income_limit": null,
+        "state": "All India",
+        "benefits": [
+            "Structured entrepreneurship education courses",
+            "Access to startup mentorship and industry networks",
+            "Incubation support and links to credit agencies"
+        ],
+        "required_documents": [
+            "Aadhaar Card",
+            "Educational Certificates",
+            "Detailed Business Idea Proposal"
+        ],
+        "application_link": "https://msde.gov.in/",
+        "official_scheme_url": "https://msde.gov.in/"
+    },
+    {
+        "scheme_id": "SCH-006",
+        "scheme_name": "Post Matric Scholarship Scheme for SC Students",
+        "category": "Scholarships",
+        "ministry": "Ministry of Social Justice and Empowerment",
+        "description": "Financial assistance to SC students pursuing post-matriculation or post-secondary courses to enable them to complete their education.",
+        "min_age": 15,
+        "max_age": 30,
+        "gender": "All",
+        "occupation": "Students",
+        "education": "Post-matric (Class 11, 12, Graduate, Postgraduate, or Professional degrees)",
+        "income_limit": 250000,
+        "state": "All India",
+        "benefits": [
+            "Full tuition fee reimbursement",
+            "Monthly maintenance allowance up to Rs 1,200 depending on course category",
+            "Additional allowances for disabled students"
+        ],
+        "required_documents": [
+            "SC Caste Certificate",
+            "Income Certificate issued by competent authority",
+            "Aadhaar Card",
+            "Academic Marksheet of previous class",
+            "Fee receipt of current admission"
+        ],
+        "application_link": "https://scholarships.gov.in/",
+        "official_scheme_url": "https://socialjustice.gov.in/"
+    },
+    {
+        "scheme_id": "SCH-007",
+        "scheme_name": "National Means cum Merit Scholarship (NMMS)",
+        "category": "Scholarships",
+        "ministry": "Ministry of Education",
+        "description": "Awarded to meritorious students of economically weaker sections to prevent them from dropping out at class VIII and encourage secondary education.",
+        "min_age": 12,
+        "max_age": 16,
+        "gender": "All",
+        "occupation": "Students",
+        "education": "Class VIII pass with minimum 55% marks, currently studying in Class IX",
+        "income_limit": 350000,
+        "state": "All India",
+        "benefits": [
+            "Scholarship of Rs 12,000 per annum (Rs 1,000 per month) from Class IX to Class XII"
+        ],
+        "required_documents": [
+            "Class VIII Marksheet",
+            "Income Certificate of parents",
+            "Aadhaar Card",
+            "School Bonafide Certificate"
+        ],
+        "application_link": "https://scholarships.gov.in/",
+        "official_scheme_url": "https://www.education.gov.in/"
+    },
+    {
+        "scheme_id": "SCH-008",
+        "scheme_name": "AICTE Pragati Scholarship for Girls",
+        "category": "Scholarships",
+        "ministry": "Ministry of Education / AICTE",
+        "description": "Scheme to assist and support girl students in technical education by providing financial aid.",
+        "min_age": 15,
+        "max_age": 25,
+        "gender": "Female",
+        "occupation": "Technical Students",
+        "education": "Admitted to 1st year Degree/Diploma program in AICTE approved institutions",
+        "income_limit": 800000,
+        "state": "All India",
+        "benefits": [
+            "Rs 50,000 per annum for tuition fees, computer purchase, books, and stationeries",
+            "No separate maintenance allowance is paid"
+        ],
+        "required_documents": [
+            "Aadhaar Card",
+            "Admission Letter",
+            "Tuition Fee Receipt",
+            "Family Income Certificate",
+            "Declaration by parents that family income is within limits"
+        ],
+        "application_link": "https://scholarships.gov.in/",
+        "official_scheme_url": "https://www.aicte-india.org/schemes/students-development-schemes/pragati"
+    },
+    {
+        "scheme_id": "SCH-009",
+        "scheme_name": "National Scheme for Incentive to Girls for Secondary Education (NSIGSE)",
+        "category": "Scholarships",
+        "ministry": "Ministry of Education",
+        "description": "Incentive scheme to establish an enabling environment for secondary enrollment and retention of girl child.",
+        "min_age": 14,
+        "max_age": 18,
+        "gender": "Female",
+        "occupation": "Students",
+        "education": "Passed Class VIII and enrolled in Class IX of Government/Government-aided schools",
+        "income_limit": null,
+        "state": "All India",
+        "benefits": [
+            "A sum of Rs 3,000 is deposited as a fixed deposit in the girl's bank account",
+            "Accumulated interest and principal amount can be withdrawn on completing 18 years of age and passing class X"
+        ],
+        "required_documents": [
+            "Class VIII Marksheet",
+            "Aadhaar Card",
+            "Caste Certificate (for SC/ST girls)",
+            "KGBV Certificate (if applicable)"
+        ],
+        "application_link": "https://scholarships.gov.in/",
+        "official_scheme_url": "https://www.education.gov.in/"
+    },
+    {
+        "scheme_id": "SCH-010",
+        "scheme_name": "Pradhan Mantri Rojgar Protsahan Yojana (PMRPY)",
+        "category": "Employment Assistance",
+        "ministry": "Ministry of Labour and Employment",
+        "description": "Scheme to incentivize employers for generating new employment by contributing full employer's EPF/EPS share.",
+        "min_age": 18,
+        "max_age": 40,
+        "gender": "All",
+        "occupation": "Newly Employed Workers",
+        "education": "Literate and above",
+        "income_limit": "Monthly wages must be less than Rs 15,000",
+        "state": "All India",
+        "benefits": [
+            "Government pays the full 12% employer contribution towards EPF and EPS for 3 years",
+            "Enhances workers' social security benefits and net take-home salary"
+        ],
+        "required_documents": [
+            "Aadhaar Card",
+            "Universal Account Number (UAN) linked with Aadhaar",
+            "EPF Registration Certificate"
+        ],
+        "application_link": "https://www.epfindia.gov.in",
+        "official_scheme_url": "https://www.epfindia.gov.in"
+    },
+    {
+        "scheme_id": "SCH-011",
+        "scheme_name": "Atmanirbhar Bharat Rojgar Yojana (ABRY)",
+        "category": "Employment Assistance",
+        "ministry": "Ministry of Labour and Employment",
+        "description": "Incentivizes employers to recruit new employees during the post-pandemic recovery phase by providing social security subsidies.",
+        "min_age": 18,
+        "max_age": 60,
+        "gender": "All",
+        "occupation": "Newly Employed / Job Seekers",
+        "education": "Not Specified",
+        "income_limit": "Monthly salary must be less than Rs 15,000",
+        "state": "All India",
+        "benefits": [
+            "Subsidy of both employee's (12% of wages) and employer's (12% of wages) EPF contributions for establishments employing up to 1000 employees",
+            "Subsidy of only employee's EPF contribution for establishments employing more than 1000 employees"
+        ],
+        "required_documents": [
+            "Aadhaar Card",
+            "EPF Account / UAN Number",
+            "Joining / Employment Letter"
+        ],
+        "application_link": "https://www.epfindia.gov.in/",
+        "official_scheme_url": "https://www.epfindia.gov.in/"
+    },
+    {
+        "scheme_id": "SCH-012",
+        "scheme_name": "National Career Service (NCS)",
+        "category": "Employment Assistance",
+        "ministry": "Ministry of Labour and Employment",
+        "description": "A digital portal offering job matching, career guidance, skills evaluation, and info on job fairs.",
+        "min_age": 14,
+        "max_age": 60,
+        "gender": "All",
+        "occupation": "Job Seekers / Students",
+        "education": "5th Standard to Postgraduate",
+        "income_limit": null,
+        "state": "All India",
+        "benefits": [
+            "Free job placement and matching services",
+            "Access to thousands of job postings across public and private sectors",
+            "Free career counselling, aptitude testing, and training linkages"
+        ],
+        "required_documents": [
+            "Identity Proof (Aadhaar/PAN/Voter Card)",
+            "Educational Marksheets / Certificates",
+            "Resume / CV"
+        ],
+        "application_link": "https://www.ncs.gov.in/Pages/Registration.aspx",
+        "official_scheme_url": "https://www.ncs.gov.in/"
+    },
+    {
+        "scheme_id": "SCH-013",
+        "scheme_name": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)",
+        "category": "Employment Assistance",
+        "ministry": "Ministry of Rural Development",
+        "description": "Livelihood security program providing at least 100 days of guaranteed wage employment to rural households.",
+        "min_age": 18,
+        "max_age": null,
+        "gender": "All",
+        "occupation": "Rural Unskilled Labourers",
+        "education": "Not Required (No educational barriers)",
+        "income_limit": null,
+        "state": "All India",
+        "benefits": [
+            "100 days of guaranteed unskilled manual labour employment per household per year",
+            "Statutory minimum wage payouts direct to bank account",
+            "Unemployment allowance if work is not allotted within 15 days of demand"
+        ],
+        "required_documents": [
+            "Aadhaar Card",
+            "Job Card",
+            "Bank Account Passbook",
+            "Passport Size Photograph"
+        ],
+        "application_link": "https://nrega.nic.in/MGNREGA_new/Nregahome.aspx",
+        "official_scheme_url": "https://nrega.nic.in/"
+    },
+    {
+        "scheme_id": "SCH-014",
+        "scheme_name": "Central Sector Scheme of Scholarship for College and University Students",
+        "category": "Scholarships",
+        "ministry": "Ministry of Education",
+        "description": "Provides regular financial assistance to meritorious but economically poor students for post-school expenses.",
+        "min_age": 17,
+        "max_age": 25,
+        "gender": "All",
+        "occupation": "Students",
+        "education": "Passed Class 12 and in the top 20th percentile, currently pursuing regular higher studies",
+        "income_limit": 450000,
+        "state": "All India",
+        "benefits": [
+            "Scholarship of Rs 12,000 per annum for the first three years of graduation",
+            "Scholarship of Rs 20,000 per annum during postgraduate studies"
+        ],
+        "required_documents": [
+            "Class 12 Marksheet",
+            "Family Income Certificate",
+            "Aadhaar Card",
+            "Admission Confirmation / Fee Receipt",
+            "Bank Passbook copy"
+        ],
+        "application_link": "https://scholarships.gov.in/",
+        "official_scheme_url": "https://www.education.gov.in/"
+    },
+    {
+        "scheme_id": "SCH-015",
+        "scheme_name": "SANKALP (Skills Acquisition and Knowledge Awareness for Livelihood Promotion)",
+        "category": "Skill Development",
+        "ministry": "Ministry of Skill Development and Entrepreneurship",
+        "description": "Skill strengthening program targeting quality assurance, trainers development, and gender-inclusive placements.",
+        "min_age": 15,
+        "max_age": 45,
+        "gender": "All",
+        "occupation": "Trainees / Rural Youth",
+        "education": "8th standard and above",
+        "income_limit": null,
+        "state": "All India",
+        "benefits": [
+            "Access to industry-aligned certified vocational training",
+            "Improved institutional support and localized skill opportunities",
+            "Special incentives for marginalized and female trainees"
+        ],
+        "required_documents": [
+            "Aadhaar Card",
+            "School Living Certificate / Marksheet",
+            "Residence Proof"
+        ],
+        "application_link": "https://sankalp.msde.gov.in/",
+        "official_scheme_url": "https://msde.gov.in/en/schemes-projects/sankalp"
+    },
+    {
+        "scheme_id": "SCH-016",
+        "scheme_name": "STRIVE (Skills Strengthening for Industrial Value Enhancement)",
+        "category": "Apprenticeships",
+        "ministry": "Ministry of Skill Development and Entrepreneurship",
+        "description": "World Bank-funded program to improve performance of ITIs and expand apprenticeship training within local industry clusters.",
+        "min_age": 14,
+        "max_age": 40,
+        "gender": "All",
+        "occupation": "ITI Students / Industry Trainees",
+        "education": "ITI Marksheet or 8th/10th class pass (enrolled in ITIs)",
+        "income_limit": null,
+        "state": "All India",
+        "benefits": [
+            "Access to modern workshops, updated curriculums, and industry trainers",
+            "Direct industry linkages for industrial apprenticeship placement"
+        ],
+        "required_documents": [
+            "ITI Marksheet / Enrollment Details",
+            "Aadhaar Card",
+            "Bank Account Passbook"
+        ],
+        "application_link": "https://strive.msde.gov.in/",
+        "official_scheme_url": "https://msde.gov.in/en/schemes-projects/strive"
+    },
+    {
+        "scheme_id": "SCH-017",
+        "scheme_name": "PM-DAKSH Yojana",
+        "category": "Skill Development",
+        "ministry": "Ministry of Social Justice and Empowerment",
+        "description": "Skill development program for Scheduled Castes, OBCs, EBCs, and sanitation workers to improve earning capacity.",
+        "min_age": 18,
+        "max_age": 45,
+        "gender": "All",
+        "occupation": "Marginalized Unemployed Youth",
+        "education": "8th class pass and above",
+        "income_limit": "OBC families: less than Rs 3,00,000 p.a. | EBC families: less than Rs 1,00,000 p.a. | SC/Sanitation Workers: No limit",
+        "state": "All India",
+        "benefits": [
+            "Free skill training (Short-term, Long-term, or Entrepreneurship)",
+            "Stipend of Rs 1,000 to Rs 1,500 per month depending on attendance",
+            "Placement linkages and certification"
+        ],
+        "required_documents": [
+            "Aadhaar Card",
+            "Caste Certificate",
+            "Income Certificate (if applicable)",
+            "Educational Qualification Certificate"
+        ],
+        "application_link": "https://pmdaksh.dosje.gov.in/",
+        "official_scheme_url": "https://pmdaksh.dosje.gov.in/"
+    },
+    {
+        "scheme_id": "SCH-018",
+        "scheme_name": "Seekho Aur Kamao (Learn and Earn)",
+        "category": "Skill Development",
+        "ministry": "Ministry of Minority Affairs",
+        "description": "Skill development scheme for youth belonging to notified minority communities to ensure employability.",
+        "min_age": 14,
+        "max_age": 35,
+        "gender": "All",
+        "occupation": "Minority Youth",
+        "education": "Minimum 5th class pass",
+        "income_limit": 250000,
+        "state": "All India",
+        "benefits": [
+            "Fully funded residential and non-residential skill development courses",
+            "Monthly stipend for training period",
+            "Assured job placements for at least 75% of certified candidates"
+        ],
+        "required_documents": [
+            "Minority Self-Declaration / Certificate",
+            "Income Certificate",
+            "Aadhaar Card",
+            "Educational Marksheets"
+        ],
+        "application_link": "https://www.minorityaffairs.gov.in",
+        "official_scheme_url": "https://www.minorityaffairs.gov.in"
+    },
+    {
+        "scheme_id": "SCH-019",
+        "scheme_name": "Nai Roshni Scheme",
+        "category": "Skill Development",
+        "ministry": "Ministry of Minority Affairs",
+        "description": "Leadership and digital literacy training program for women belonging to minority communities.",
+        "min_age": 18,
+        "max_age": 65,
+        "gender": "Female",
+        "occupation": "Minority Women",
+        "education": "Varies by training module",
+        "income_limit": 250000,
+        "state": "All India",
+        "benefits": [
+            "Free training on leadership, financial literacy, life skills, and civic rights",
+            "Access to community networks and government-support linkages"
+        ],
+        "required_documents": [
+            "Aadhaar Card",
+            "Minority Status Certificate",
+            "Family Income Certificate"
+        ],
+        "application_link": "https://www.minorityaffairs.gov.in",
+        "official_scheme_url": "https://www.minorityaffairs.gov.in"
+    },
+    {
+        "scheme_id": "SCH-020",
+        "scheme_name": "AICTE National Internship Portal",
+        "category": "Internships",
+        "ministry": "Ministry of Education / AICTE",
+        "description": "A single-window platform to search and apply for verified internship placements across sectors.",
+        "min_age": 18,
+        "max_age": 28,
+        "gender": "All",
+        "occupation": "College Students",
+        "education": "Enrolled in Diploma, Graduation, or Postgraduate programs",
+        "income_limit": null,
+        "state": "All India",
+        "benefits": [
+            "Access to verified internships in Corporates, MSMEs, and Government agencies",
+            "Internship certificate issued by AICTE and hiring organization",
+            "Opportunities for performance-linked stipends"
+        ],
+        "required_documents": [
+            "College ID Card",
+            "Resume / CV",
+            "Aadhaar Card",
+            "Academic transcripts of current course"
+        ],
+        "application_link": "https://internship.aicte-india.org/register_new.php",
+        "official_scheme_url": "https://internship.aicte-india.org/"
+    }
+]
